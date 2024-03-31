@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ p{
+margin:0;
+ }
+ :root{
+   --primary:#5e5793;
+   --heading-color:grey;
+  --github:red;
+  --darknlue:darkblue;
+  --black:black;
+  --white:white;
+
+ }
+ .btn{
+   font-family: sans-serif;
+   display: inline-block;
+   padding: 14px 32px;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 4px;
+ transition: background-color 0.5s;
+
+ }
+ h1{
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 67px;
+
+ }
+ h2{
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 58px;
+ }
+ h3{
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 34px;
+ }
+ .text-lg{
+   color: var(--darknlue);
+   font-size: 18px;
+   font-style:normal ;
+   font-weight: 27px;
+   line-height: 27px;
+ }
+
+ .section-title{
+   color: var(--heading-color);
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 600;line-height: 32px;
+   display: flex;
+   align-items: center;
+
+ }
+ .sub-title{
+   color: var(--heading-color);
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;line-height: 24px;
+ 
+ }
+ nav{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 3px;
+    margin-right: 5px;
+   
+ }
+ nav a{
+    text-decoration: none;
+ }
+ div .mypic{
+    /* display: inline-flex;
+    justify-content: center; */
+    margin-left: 45%;
+    margin-top: 15%;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+ 
+ }
+ .logo{
+ 
+    width: 20%s;
+ }
+ div .intro{
+    font-size: 30px;
+    text-align: center;
+    
+    
+ }
+ .intro span{
+    color: blueviolet;
+    font-style: italic;
+ }
+ .image-project{
+ height: 15px;
+ width: 15px;
+ size: 25px;
+ padding-left: 15px;
+ 
+ }
+ .p-content{
+  font-size: 1.6rem;
+ }
+ .btn-bannner{
+  display: inline-block;
+  padding: 2rem 2.8rem;
+  background: var(--white);
+  border-radius: 10rem;
+  box-shadow: 0 0 1rem var(--primary);
+  font-size: 1.5rem;
+
+}
+.project-box {
+  display: flex;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.project-image {
+  flex: 0 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-details {
+  flex: 1 1 auto;
+}
+
+.project-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.project-description {
+  font-size: 14px;
+}
